@@ -7,7 +7,7 @@ terraform {
  }
 
  backend "s3" {
-   bucket = "tf-tuts-state"
+   bucket = "terafform-test-preskok"
    key    = "state"
    region = "eu-central-1"
  }
